@@ -1,0 +1,6 @@
+C:\Users\Jerad Hobgood\Desktop\IMDB\IMDB\IMDB.Data\bin\Debug\netcoreapp2.1\IMDB.Data.deps.json
+C:\Users\Jerad Hobgood\Desktop\IMDB\IMDB\IMDB.Data\bin\Debug\netcoreapp2.1\IMDB.Data.dll
+C:\Users\Jerad Hobgood\Desktop\IMDB\IMDB\IMDB.Data\obj\Debug\netcoreapp2.1\IMDB.Data.csprojAssemblyReference.cache
+C:\Users\Jerad Hobgood\Desktop\IMDB\IMDB\IMDB.Data\obj\Debug\netcoreapp2.1\IMDB.Data.csproj.CoreCompileInputs.cache
+C:\Users\Jerad Hobgood\Desktop\IMDB\IMDB\IMDB.Data\obj\Debug\netcoreapp2.1\IMDB.Data.AssemblyInfoInputs.cache
+C:\Users\Jerad Hobgood\Desktop\IMDB\IMDB\IMDB.Data\obj\Debug\netcoreapp2.1\IMDB.Data.AssemblyInfo.cs
