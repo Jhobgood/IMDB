@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using IMDB.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
+using IMDB.Data.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -34,7 +36,10 @@ namespace IMDB
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             //services.AddSingleton(new DataBaseRepo(Configuration.GetConnectionString("FirstSiteDBConnection")));
-            //services.AddScoped<RegisterService>();
+            //"qmis-survey": "Database=quaver_survey;Password=4bLtzWbrAPyZpMNB;UserID=appUser;"
+            string connstring = "Server=localhost;Database=imdb;Password=abc123;UserID=root";
+            services.AddSingleton(new IMDBRepo(connstring));
+            services.AddScoped<IMDBService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{9A646570-94C2-4C46-A717-309A5374B3FD}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IMDB/Views/IMDB/IMDB.cshtml">
+    <Files>
+      <File FileName="IMDB/Controllers/IMDBController.cs" Line="29" Column="1" />
+      <File FileName="IMDB/Services/IMDBService.cs" Line="16" Column="27" />
+      <File FileName="IMDB/Startup.cs" Line="40" Column="28" />
+      <File FileName="IMDB.Data/Repositories/IMDBRepo.cs" Line="13" Column="21" />
+      <File FileName="IMDB.Data/Repositories/Base.cs" />
+      <File FileName="IMDB/Models/IMDBTest.cs" Line="1" Column="1" />
+      <File FileName="IMDB/Views/IMDB/IMDB.cshtml" Line="6" Column="61" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.IMDB PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/jeradhobgood/Desktop/IMDB Code/IMDB/IMDB/IMDB/Controllers/Test123.cs" relfile="IMDB/Controllers/Test123.cs" line="21" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

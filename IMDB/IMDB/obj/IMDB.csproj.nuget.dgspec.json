@@ -1,35 +1,91 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jerad Hobgood\\Desktop\\IMDB\\IMDB\\IMDB\\IMDB.csproj": {}
+    "/Users/jeradhobgood/Desktop/IMDB Code/IMDB/IMDB/IMDB/IMDB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jerad Hobgood\\Desktop\\IMDB\\IMDB\\IMDB\\IMDB.csproj": {
+    "/Users/jeradhobgood/Desktop/IMDB Code/IMDB/IMDB/IMDB.Data/IMDB.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jerad Hobgood\\Desktop\\IMDB\\IMDB\\IMDB\\IMDB.csproj",
-        "projectName": "IMDB",
-        "projectPath": "C:\\Users\\Jerad Hobgood\\Desktop\\IMDB\\IMDB\\IMDB\\IMDB.csproj",
-        "packagesPath": "C:\\Users\\Jerad Hobgood\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jerad Hobgood\\Desktop\\IMDB\\IMDB\\IMDB\\obj\\",
+        "projectUniqueName": "/Users/jeradhobgood/Desktop/IMDB Code/IMDB/IMDB/IMDB.Data/IMDB.Data.csproj",
+        "projectName": "IMDB.Data",
+        "projectPath": "/Users/jeradhobgood/Desktop/IMDB Code/IMDB/IMDB/IMDB.Data/IMDB.Data.csproj",
+        "packagesPath": "/Users/jeradhobgood/.nuget/packages/",
+        "outputPath": "/Users/jeradhobgood/Desktop/IMDB Code/IMDB/IMDB/IMDB.Data/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jerad Hobgood\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/jeradhobgood/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.17, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Users/jeradhobgood/Desktop/IMDB Code/IMDB/IMDB/IMDB/IMDB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jeradhobgood/Desktop/IMDB Code/IMDB/IMDB/IMDB/IMDB.csproj",
+        "projectName": "IMDB",
+        "projectPath": "/Users/jeradhobgood/Desktop/IMDB Code/IMDB/IMDB/IMDB/IMDB.csproj",
+        "packagesPath": "/Users/jeradhobgood/.nuget/packages/",
+        "outputPath": "/Users/jeradhobgood/Desktop/IMDB Code/IMDB/IMDB/IMDB/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/jeradhobgood/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "/Users/jeradhobgood/Desktop/IMDB Code/IMDB/IMDB/IMDB.Data/IMDB.Data.csproj": {
+                "projectPath": "/Users/jeradhobgood/Desktop/IMDB Code/IMDB/IMDB/IMDB.Data/IMDB.Data.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
