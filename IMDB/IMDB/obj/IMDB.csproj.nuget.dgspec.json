@@ -1,28 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jeradhobgood/Desktop/IMDB Code/IMDB/IMDB/IMDB/IMDB.csproj": {}
+    "C:\\Users\\jhobg\\OneDrive\\Desktop\\IMDB\\IMDB\\IMDB\\IMDB\\IMDB.csproj": {}
   },
   "projects": {
-    "/Users/jeradhobgood/Desktop/IMDB Code/IMDB/IMDB/IMDB.Data/IMDB.Data.csproj": {
+    "C:\\Users\\jhobg\\OneDrive\\Desktop\\IMDB\\IMDB\\IMDB\\IMDB.Data\\IMDB.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeradhobgood/Desktop/IMDB Code/IMDB/IMDB/IMDB.Data/IMDB.Data.csproj",
+        "projectUniqueName": "C:\\Users\\jhobg\\OneDrive\\Desktop\\IMDB\\IMDB\\IMDB\\IMDB.Data\\IMDB.Data.csproj",
         "projectName": "IMDB.Data",
-        "projectPath": "/Users/jeradhobgood/Desktop/IMDB Code/IMDB/IMDB/IMDB.Data/IMDB.Data.csproj",
-        "packagesPath": "/Users/jeradhobgood/.nuget/packages/",
-        "outputPath": "/Users/jeradhobgood/Desktop/IMDB Code/IMDB/IMDB/IMDB.Data/obj/",
+        "projectPath": "C:\\Users\\jhobg\\OneDrive\\Desktop\\IMDB\\IMDB\\IMDB\\IMDB.Data\\IMDB.Data.csproj",
+        "packagesPath": "C:\\Users\\jhobg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jhobg\\OneDrive\\Desktop\\IMDB\\IMDB\\IMDB\\IMDB.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "/Users/jeradhobgood/.config/NuGet/NuGet.Config"
+          "C:\\Users\\jhobg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -51,39 +54,48 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/jeradhobgood/Desktop/IMDB Code/IMDB/IMDB/IMDB/IMDB.csproj": {
+    "C:\\Users\\jhobg\\OneDrive\\Desktop\\IMDB\\IMDB\\IMDB\\IMDB\\IMDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeradhobgood/Desktop/IMDB Code/IMDB/IMDB/IMDB/IMDB.csproj",
+        "projectUniqueName": "C:\\Users\\jhobg\\OneDrive\\Desktop\\IMDB\\IMDB\\IMDB\\IMDB\\IMDB.csproj",
         "projectName": "IMDB",
-        "projectPath": "/Users/jeradhobgood/Desktop/IMDB Code/IMDB/IMDB/IMDB/IMDB.csproj",
-        "packagesPath": "/Users/jeradhobgood/.nuget/packages/",
-        "outputPath": "/Users/jeradhobgood/Desktop/IMDB Code/IMDB/IMDB/IMDB/obj/",
+        "projectPath": "C:\\Users\\jhobg\\OneDrive\\Desktop\\IMDB\\IMDB\\IMDB\\IMDB\\IMDB.csproj",
+        "packagesPath": "C:\\Users\\jhobg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jhobg\\OneDrive\\Desktop\\IMDB\\IMDB\\IMDB\\IMDB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "/Users/jeradhobgood/.config/NuGet/NuGet.Config"
+          "C:\\Users\\jhobg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "/Users/jeradhobgood/Desktop/IMDB Code/IMDB/IMDB/IMDB.Data/IMDB.Data.csproj": {
-                "projectPath": "/Users/jeradhobgood/Desktop/IMDB Code/IMDB/IMDB/IMDB.Data/IMDB.Data.csproj"
+              "C:\\Users\\jhobg\\OneDrive\\Desktop\\IMDB\\IMDB\\IMDB\\IMDB.Data\\IMDB.Data.csproj": {
+                "projectPath": "C:\\Users\\jhobg\\OneDrive\\Desktop\\IMDB\\IMDB\\IMDB\\IMDB.Data\\IMDB.Data.csproj"
               }
             }
           }
@@ -109,16 +121,23 @@
               "version": "[2.1.2, )"
             },
             "Microsoft.NETCore.App": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

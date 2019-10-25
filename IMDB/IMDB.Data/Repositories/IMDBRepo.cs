@@ -3,21 +3,31 @@ using MySql.Data.MySqlClient;
 
 namespace IMDB.Data.Repositories
 {
-    public class IMDBRepo : Base
+    public class IMDBRepo : sqlBase
     {
-        public IMDBRepo(string connString) : base(connString)
+        public IMDBRepo(string connString)
         {
-
+            Initialize(connString);
         }
+
 
         public void TestInsert()
         {
             string cmdText = @"INSERT INTO new_table (testInsert)
                               VALUES (?values)";
+            //open connection
+            if (OpenConnection() == true)
+            {
+                //create command and assign the query and connection from the constructor
+                MySqlCommand cmd = new MySqlCommand(cmdText, connection);
 
+                //Execute command
+                cmd.ExecuteNonQuery();
 
-            //var i = Select<int>(cmdText, new MySqlParameter("?id", 1));
-            Insert(cmdText, new MySqlParameter("?values", "asdlfjalskdj"));
+                //close connection
+                CloseConnection();
+            }
+
         }
     }
 }
