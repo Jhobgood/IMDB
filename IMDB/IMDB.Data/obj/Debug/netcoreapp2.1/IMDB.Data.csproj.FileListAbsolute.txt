@@ -13,3 +13,10 @@ C:/Users/Jerad Hobgood/Desktop/IMDB/IMDB/IMDB.Data/obj/Debug/netcoreapp2.1/IMDB.
 /Users/jeradhobgood/Desktop/IMDB Code/IMDB/IMDB/IMDB.Data/obj/Debug/netcoreapp2.1/IMDB.Data.AssemblyInfo.cs
 /Users/jeradhobgood/Desktop/IMDB Code/IMDB/IMDB/IMDB.Data/obj/Debug/netcoreapp2.1/IMDB.Data.dll
 /Users/jeradhobgood/Desktop/IMDB Code/IMDB/IMDB/IMDB.Data/obj/Debug/netcoreapp2.1/IMDB.Data.pdb
+C:\Users\jhobg\OneDrive\Desktop\IMDB\IMDB\IMDB\IMDB.Data\bin\Debug\netcoreapp2.1\IMDB.Data.deps.json
+C:\Users\jhobg\OneDrive\Desktop\IMDB\IMDB\IMDB\IMDB.Data\bin\Debug\netcoreapp2.1\IMDB.Data.dll
+C:\Users\jhobg\OneDrive\Desktop\IMDB\IMDB\IMDB\IMDB.Data\bin\Debug\netcoreapp2.1\IMDB.Data.pdb
+C:\Users\jhobg\OneDrive\Desktop\IMDB\IMDB\IMDB\IMDB.Data\obj\Debug\netcoreapp2.1\IMDB.Data.AssemblyInfoInputs.cache
+C:\Users\jhobg\OneDrive\Desktop\IMDB\IMDB\IMDB\IMDB.Data\obj\Debug\netcoreapp2.1\IMDB.Data.AssemblyInfo.cs
+C:\Users\jhobg\OneDrive\Desktop\IMDB\IMDB\IMDB\IMDB.Data\obj\Debug\netcoreapp2.1\IMDB.Data.dll
+C:\Users\jhobg\OneDrive\Desktop\IMDB\IMDB\IMDB\IMDB.Data\obj\Debug\netcoreapp2.1\IMDB.Data.pdb

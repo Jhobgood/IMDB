@@ -12525,8 +12525,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jhobg\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\jhobg\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -12537,13 +12536,9 @@
       "packagesPath": "C:\\Users\\jhobg\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\jhobg\\OneDrive\\Desktop\\IMDB\\IMDB\\IMDB\\IMDB\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
         "C:\\Users\\jhobg\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"

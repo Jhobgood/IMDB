@@ -13,7 +13,7 @@ namespace IMDB.Services
 
         public void FirstSQLStatment()
         {
-            _IMDBRepo.TestInsert();
+            _IMDBRepo.TestInsert("JJ");
         }
     }
 }

@@ -11,18 +11,18 @@ namespace IMDB.Data.Repositories
         }
 
 
-        public void TestInsert()
+        public void TestInsert(string userName)
         {
-            string cmdText = @"INSERT INTO new_table (testInsert)
-                              VALUES (?values)";
             //open connection
             if (OpenConnection() == true)
             {
-                //create command and assign the query and connection from the constructor
-                MySqlCommand cmd = new MySqlCommand(cmdText, connection);
+                MySqlCommand command = connection.CreateCommand();
+                command.CommandText = @"INSERT INTO users (username)
+                                         VALUES(?TestName)";
+                command.Parameters.AddWithValue("?TestName", userName);
 
                 //Execute command
-                cmd.ExecuteNonQuery();
+                command.ExecuteNonQuery();
 
                 //close connection
                 CloseConnection();

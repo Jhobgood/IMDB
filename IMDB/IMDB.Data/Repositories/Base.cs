@@ -15,15 +15,17 @@ namespace IMDB.Data.Repositories
 
         public void Initialize(string connString)
         {
-            server = "localhost";
-            database = "imdb";
-            uid = "root";
-            password = "Trojans_633#";
-            string connectionString;
-            connectionString = "SERVER=" + server + ";" + "DATABASE=" +
-            database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
+            //server = "localhost";
+            //database = "imdb";
+            //uid = "root";
+            //password = "Trojans_633#";
+            ////string connectionString;
+            ////connectionString = "SERVER=" + server + ";" + "DATABASE=" +
+            ////database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
 
-            connection = new MySqlConnection(connectionString);
+            //string connectionString = $"(SERVER={server};DATABASE={database};UIT={uid};PASSWORD={password})";
+
+            connection = new MySqlConnection(connString);
         }
 
         //open connection to database
@@ -36,19 +38,14 @@ namespace IMDB.Data.Repositories
             }
             catch (MySqlException ex)
             {
-                //When handling errors, you can your application's response based 
-                //on the error number.
-                //The two most common error numbers when connecting are as follows:
-                //0: Cannot connect to server.
-                //1045: Invalid user name and/or password.
                 switch (ex.Number)
                 {
                     case 0:
-                        // MessageBox.Show("Cannot connect to server.  Contact administrator");
+                        // Cannot connect to server.  Contact administrator
                         break;
 
                     case 1045:
-                        // MessageBox.Show("Invalid username/password, please try again");
+                        // Invalid username/password, please try again
                         break;
                 }
                 return false;

@@ -37,7 +37,7 @@ namespace IMDB
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             //services.AddSingleton(new DataBaseRepo(Configuration.GetConnectionString("FirstSiteDBConnection")));
             //"qmis-survey": "Database=quaver_survey;Password=4bLtzWbrAPyZpMNB;UserID=appUser;"
-            string connstring = "Server=localhost;Database=imdb;Password=abc123;UserID=root";
+            string connstring = "Server=localhost;Database=imdb;Password=Trojans_633#;UserID=root";
             services.AddSingleton(new IMDBRepo(connstring));
             services.AddScoped<IMDBService>();
         }
