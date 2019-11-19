@@ -15,16 +15,6 @@ namespace IMDB.Data.Repositories
 
         public void Initialize(string connString)
         {
-            //server = "localhost";
-            //database = "imdb";
-            //uid = "root";
-            //password = "Trojans_633#";
-            ////string connectionString;
-            ////connectionString = "SERVER=" + server + ";" + "DATABASE=" +
-            ////database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
-
-            //string connectionString = $"(SERVER={server};DATABASE={database};UIT={uid};PASSWORD={password})";
-
             connection = new MySqlConnection(connString);
         }
 
@@ -64,6 +54,12 @@ namespace IMDB.Data.Repositories
             {
                 return false;
             }
+        }
+
+        public void AddParam(ref List<MySqlParameter> list, string name, object value)
+        {
+            MySqlParameter p = new MySqlParameter(name, value ?? DBNull.Value);
+            list.Add(p);
         }
     }
 }

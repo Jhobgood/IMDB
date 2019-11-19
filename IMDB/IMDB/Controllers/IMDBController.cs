@@ -27,7 +27,7 @@ namespace IMDB.Controllers
         [HttpPost]
         public void Save(IMDBTest i)
         {
-            _imdbService.FirstSQLStatment();
+            _imdbService.ReadInFile();
         }
     }
 }

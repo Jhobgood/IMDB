@@ -93,3 +93,36 @@ C:\Users\jhobg\OneDrive\Desktop\IMDB\IMDB\IMDB\IMDB\obj\Debug\netcoreapp2.1\IMDB
 C:\Users\jhobg\OneDrive\Desktop\IMDB\IMDB\IMDB\IMDB\obj\Debug\netcoreapp2.1\IMDB.csproj.CopyComplete
 C:\Users\jhobg\OneDrive\Desktop\IMDB\IMDB\IMDB\IMDB\obj\Debug\netcoreapp2.1\IMDB.dll
 C:\Users\jhobg\OneDrive\Desktop\IMDB\IMDB\IMDB\IMDB\obj\Debug\netcoreapp2.1\IMDB.pdb
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB\bin\Debug\netcoreapp2.1\IMDB.deps.json
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB\bin\Debug\netcoreapp2.1\IMDB.runtimeconfig.json
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB\bin\Debug\netcoreapp2.1\IMDB.runtimeconfig.dev.json
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB\bin\Debug\netcoreapp2.1\IMDB.dll
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB\bin\Debug\netcoreapp2.1\IMDB.pdb
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB\bin\Debug\netcoreapp2.1\IMDB.Views.dll
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB\bin\Debug\netcoreapp2.1\IMDB.Views.pdb
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB\bin\Debug\netcoreapp2.1\IMDB.Data.dll
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB\bin\Debug\netcoreapp2.1\IMDB.Data.pdb
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB\obj\Debug\netcoreapp2.1\IMDB.csprojAssemblyReference.cache
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB\obj\Debug\netcoreapp2.1\IMDB.RazorAssemblyInfo.cache
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB\obj\Debug\netcoreapp2.1\IMDB.RazorAssemblyInfo.cs
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB\obj\Debug\netcoreapp2.1\IMDB.AssemblyInfoInputs.cache
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB\obj\Debug\netcoreapp2.1\IMDB.AssemblyInfo.cs
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB\obj\Debug\netcoreapp2.1\IMDB.TagHelpers.input.cache
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB\obj\Debug\netcoreapp2.1\IMDB.TagHelpers.output.cache
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB\obj\Debug\netcoreapp2.1\IMDB.RazorCoreGenerate.cache
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB\obj\Debug\netcoreapp2.1\Razor\Views\IMDB\IMDB.cshtml.g.cs
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB\obj\Debug\netcoreapp2.1\IMDB.RazorTargetAssemblyInfo.cache
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB\obj\Debug\netcoreapp2.1\IMDB.RazorTargetAssemblyInfo.cs
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB\obj\Debug\netcoreapp2.1\IMDB.Views.pdb
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB\obj\Debug\netcoreapp2.1\IMDB.csproj.CopyComplete
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB\obj\Debug\netcoreapp2.1\IMDB.dll
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB\obj\Debug\netcoreapp2.1\IMDB.pdb
