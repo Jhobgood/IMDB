@@ -36,18 +36,6 @@ namespace IMDB.Data.Repositories
             }
 
         }
-        /* 
-           string tsvFilePath = @"C:/QuaverLogs";
-
-            String[] content = File.ReadAllLines(tsvFilePath);
-
-            var lls = new List<List<string>>();
-            for (int i = 0; i < content.First().Split('\t').Length; i++)
-            {
-
-                lls.Add(content.Select(x => x.Split('\t')[i]).ToList());
-            }
-        */
 
         public void PersistNameBasics(string filePath)
         {
