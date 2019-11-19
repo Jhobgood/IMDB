@@ -1,0 +1,11 @@
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDBDownloaderAndExtractor\bin\Debug\netcoreapp3.0\IMDBDownloaderAndExtractor.exe
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDBDownloaderAndExtractor\bin\Debug\netcoreapp3.0\IMDBDownloaderAndExtractor.deps.json
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDBDownloaderAndExtractor\bin\Debug\netcoreapp3.0\IMDBDownloaderAndExtractor.runtimeconfig.json
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDBDownloaderAndExtractor\bin\Debug\netcoreapp3.0\IMDBDownloaderAndExtractor.runtimeconfig.dev.json
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDBDownloaderAndExtractor\bin\Debug\netcoreapp3.0\IMDBDownloaderAndExtractor.dll
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDBDownloaderAndExtractor\bin\Debug\netcoreapp3.0\IMDBDownloaderAndExtractor.pdb
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDBDownloaderAndExtractor\obj\Debug\netcoreapp3.0\IMDBDownloaderAndExtractor.csprojAssemblyReference.cache
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDBDownloaderAndExtractor\obj\Debug\netcoreapp3.0\IMDBDownloaderAndExtractor.AssemblyInfoInputs.cache
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDBDownloaderAndExtractor\obj\Debug\netcoreapp3.0\IMDBDownloaderAndExtractor.AssemblyInfo.cs
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDBDownloaderAndExtractor\obj\Debug\netcoreapp3.0\IMDBDownloaderAndExtractor.dll
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDBDownloaderAndExtractor\obj\Debug\netcoreapp3.0\IMDBDownloaderAndExtractor.pdb
