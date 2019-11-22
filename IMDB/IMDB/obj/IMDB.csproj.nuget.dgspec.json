@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jerad Hobgood\\Desktop\\IMDB Project\\IMDB\\IMDB\\IMDB\\IMDB.csproj": {}
+    "C:\\Users\\jhobg\\OneDrive\\Desktop\\IMDB\\IMDB\\IMDB\\IMDB\\IMDB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jerad Hobgood\\Desktop\\IMDB Project\\IMDB\\IMDB\\IMDB.Data\\IMDB.Data.csproj": {
+    "C:\\Users\\jhobg\\OneDrive\\Desktop\\IMDB\\IMDB\\IMDB\\IMDB.Data\\IMDB.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jerad Hobgood\\Desktop\\IMDB Project\\IMDB\\IMDB\\IMDB.Data\\IMDB.Data.csproj",
+        "projectUniqueName": "C:\\Users\\jhobg\\OneDrive\\Desktop\\IMDB\\IMDB\\IMDB\\IMDB.Data\\IMDB.Data.csproj",
         "projectName": "IMDB.Data",
-        "projectPath": "C:\\Users\\Jerad Hobgood\\Desktop\\IMDB Project\\IMDB\\IMDB\\IMDB.Data\\IMDB.Data.csproj",
-        "packagesPath": "C:\\Users\\Jerad Hobgood\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jerad Hobgood\\Desktop\\IMDB Project\\IMDB\\IMDB\\IMDB.Data\\obj\\",
+        "projectPath": "C:\\Users\\jhobg\\OneDrive\\Desktop\\IMDB\\IMDB\\IMDB\\IMDB.Data\\IMDB.Data.csproj",
+        "packagesPath": "C:\\Users\\jhobg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jhobg\\OneDrive\\Desktop\\IMDB\\IMDB\\IMDB\\IMDB.Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Jerad Hobgood\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jhobg\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -70,20 +67,17 @@
         }
       }
     },
-    "C:\\Users\\Jerad Hobgood\\Desktop\\IMDB Project\\IMDB\\IMDB\\IMDB\\IMDB.csproj": {
+    "C:\\Users\\jhobg\\OneDrive\\Desktop\\IMDB\\IMDB\\IMDB\\IMDB\\IMDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jerad Hobgood\\Desktop\\IMDB Project\\IMDB\\IMDB\\IMDB\\IMDB.csproj",
+        "projectUniqueName": "C:\\Users\\jhobg\\OneDrive\\Desktop\\IMDB\\IMDB\\IMDB\\IMDB\\IMDB.csproj",
         "projectName": "IMDB",
-        "projectPath": "C:\\Users\\Jerad Hobgood\\Desktop\\IMDB Project\\IMDB\\IMDB\\IMDB\\IMDB.csproj",
-        "packagesPath": "C:\\Users\\Jerad Hobgood\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jerad Hobgood\\Desktop\\IMDB Project\\IMDB\\IMDB\\IMDB\\obj\\",
+        "projectPath": "C:\\Users\\jhobg\\OneDrive\\Desktop\\IMDB\\IMDB\\IMDB\\IMDB\\IMDB.csproj",
+        "packagesPath": "C:\\Users\\jhobg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jhobg\\OneDrive\\Desktop\\IMDB\\IMDB\\IMDB\\IMDB\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Jerad Hobgood\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jhobg\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -96,8 +90,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\Jerad Hobgood\\Desktop\\IMDB Project\\IMDB\\IMDB\\IMDB.Data\\IMDB.Data.csproj": {
-                "projectPath": "C:\\Users\\Jerad Hobgood\\Desktop\\IMDB Project\\IMDB\\IMDB\\IMDB.Data\\IMDB.Data.csproj"
+              "C:\\Users\\jhobg\\OneDrive\\Desktop\\IMDB\\IMDB\\IMDB\\IMDB.Data\\IMDB.Data.csproj": {
+                "projectPath": "C:\\Users\\jhobg\\OneDrive\\Desktop\\IMDB\\IMDB\\IMDB\\IMDB.Data\\IMDB.Data.csproj"
               }
             }
           }

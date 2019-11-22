@@ -28,3 +28,4 @@ C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB.Data\obj\Debug\netcor
 C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB.Data\obj\Debug\netcoreapp2.1\IMDB.Data.AssemblyInfo.cs
 C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB.Data\obj\Debug\netcoreapp2.1\IMDB.Data.dll
 C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDB.Data\obj\Debug\netcoreapp2.1\IMDB.Data.pdb
+C:\Users\jhobg\OneDrive\Desktop\IMDB\IMDB\IMDB\IMDB.Data\obj\Debug\netcoreapp2.1\IMDB.Data.csprojAssemblyReference.cache

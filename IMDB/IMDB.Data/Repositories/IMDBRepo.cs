@@ -29,7 +29,6 @@ namespace IMDB.Data.Repositories
                 command.Parameters.AddWithValue("?TestName", userName);
 
                 //Execute command
-                command.ExecuteNonQuery();
 
                 //close connection
                 CloseConnection();
@@ -39,66 +38,45 @@ namespace IMDB.Data.Repositories
 
         public void PersistNameBasics(string filePath)
         {
-            StringBuilder sb1 = new StringBuilder();
-            StringBuilder valuesText = new StringBuilder();
-
-            String[] content = File.ReadAllLines(filePath);
-            sb1.Append("Insert INTO NameBasics ('nconst', 'primaryName', 'brithYear', 'deathYear', 'primaryProfession', 'knownForTitles') Values");
-            string onDuplicateText = @" ON DUPLICATE KEY UPDATE 
-                                                        primaryName = VALUES(primaryName),
-                                                        brithYear = VALUES(brithYear),
-                                                        deathYear = VALUES(deathYear),
-                                                        primaryProfession = VALUES(primaryProfession),
-                                                        knownForTitles = VALUES(knownForTitles);";
-            int counter = 0;
-            var sqlParams = new List<MySqlParameter>();
-            MySqlCommand command = connection.CreateCommand();
-            foreach (var i in content)
-            {
-                if (counter == 0)
-                {
-                    counter++;
-                    continue;
-                }
-                valuesText.Append("?nconst" + counter.ToString() + "," +
-                                   "?primaryName" + counter.ToString() + "," +
-                                   "?brithYear" + counter.ToString() + "," +
-                                   "?deathYear" + counter.ToString() + "," +
-                                   "?primaryProfession" + counter.ToString() + "," +
-                                   "?knownForTitles" + counter.ToString() + ",");
-
-                command.Parameters.AddWithValue("?nconst" + counter.ToString(), i[0]);
-                command.Parameters.AddWithValue("?primaryName" + counter.ToString(), i[1]);
-                command.Parameters.AddWithValue("?brithYear" + counter.ToString(), i[2]);
-                command.Parameters.AddWithValue("?deathYear" + counter.ToString(), i[3]);
-                command.Parameters.AddWithValue("?primaryProfession" + counter.ToString(), i[4]);
-                command.Parameters.AddWithValue("?knownForTitles" + counter.ToString(), i[5]);
-                counter++;
-                if (counter % ROWS_TO_PROCESS == 0)
-                {
-                    string testcomd = sb1.ToString() + valuesText.ToString().TrimEnd(',') + onDuplicateText;
-                    if (OpenConnection() == true)
-                    {
-                        command.CommandText = sb1.ToString() + valuesText.ToString().TrimEnd(',') + onDuplicateText;
-
-                        //Execute command
-                        command.ExecuteNonQuery();
-                        sqlParams.Clear();
-                        valuesText.Clear();
-                    }
-                }
-            }
-
-            if (!string.IsNullOrEmpty(valuesText.ToString()))
+            try
             {
                 if (OpenConnection() == true)
                 {
-                    command.CommandText = sb1.ToString() + valuesText.ToString().TrimEnd(',') + onDuplicateText;
+                    string[] content = File.ReadAllLines(filePath);
 
-                    //Execute command
-                    command.ExecuteNonQuery();
+                    MySqlCommand command = connection.CreateCommand();
+                    command.Parameters.AddWithValue("?nconst", "");
+                    command.Parameters.AddWithValue("?primaryName", "");
+                    command.Parameters.AddWithValue("?primaryProfession", "");
+                    command.Parameters.AddWithValue("?knownForTitles", "");
+                    int counter = 0;
+                    command.CommandText = "Insert INTO imdb.namebasics (`nconst`, `primaryName`, `primaryProfession`, `knownForTitles`) Values (?nconst, ?primaryName, ?primaryProfession, ?knownForTitles) ON DUPLICATE KEY UPDATE primaryName = VALUES(primaryName), primaryProfession = VALUES(primaryProfession), knownForTitles = VALUES(knownForTitles);";
+
+                    foreach (var i in content)
+                    {
+                        if (counter == 0)
+                        {
+                            counter++;
+                            continue;
+                        }
+                        string[] splitLineData = i.Split('\t').ToArray();
+                        command.Parameters["?nconst"].Value = splitLineData[0];
+                        command.Parameters["?primaryName"].Value = splitLineData[1];
+                        command.Parameters["?primaryProfession"].Value = splitLineData[4];
+                        command.Parameters["?knownForTitles"].Value = splitLineData[5];
+                        command.ExecuteNonQuery();
+                        counter++;
+                    }
                 }
             }
+            catch
+            {
+
+            }
+            finally
+            {
+                CloseConnection();
+            }           
         }
 
         public void PersistTitleAkas(string filePath)
