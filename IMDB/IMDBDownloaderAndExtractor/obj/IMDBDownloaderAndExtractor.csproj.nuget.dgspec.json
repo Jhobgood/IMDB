@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jhobg\\OneDrive\\Desktop\\IMDB\\IMDB\\IMDB\\IMDBDownloaderAndExtractor\\IMDBDownloaderAndExtractor.csproj": {}
+    "C:\\Users\\Jerad Hobgood\\Desktop\\IMDB Project\\IMDB\\IMDB\\IMDBDownloaderAndExtractor\\IMDBDownloaderAndExtractor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jhobg\\OneDrive\\Desktop\\IMDB\\IMDB\\IMDB\\IMDBDownloaderAndExtractor\\IMDBDownloaderAndExtractor.csproj": {
+    "C:\\Users\\Jerad Hobgood\\Desktop\\IMDB Project\\IMDB\\IMDB\\IMDBDownloaderAndExtractor\\IMDBDownloaderAndExtractor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jhobg\\OneDrive\\Desktop\\IMDB\\IMDB\\IMDB\\IMDBDownloaderAndExtractor\\IMDBDownloaderAndExtractor.csproj",
+        "projectUniqueName": "C:\\Users\\Jerad Hobgood\\Desktop\\IMDB Project\\IMDB\\IMDB\\IMDBDownloaderAndExtractor\\IMDBDownloaderAndExtractor.csproj",
         "projectName": "IMDBDownloaderAndExtractor",
-        "projectPath": "C:\\Users\\jhobg\\OneDrive\\Desktop\\IMDB\\IMDB\\IMDB\\IMDBDownloaderAndExtractor\\IMDBDownloaderAndExtractor.csproj",
-        "packagesPath": "C:\\Users\\jhobg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jhobg\\OneDrive\\Desktop\\IMDB\\IMDB\\IMDB\\IMDBDownloaderAndExtractor\\obj\\",
+        "projectPath": "C:\\Users\\Jerad Hobgood\\Desktop\\IMDB Project\\IMDB\\IMDB\\IMDBDownloaderAndExtractor\\IMDBDownloaderAndExtractor.csproj",
+        "packagesPath": "C:\\Users\\Jerad Hobgood\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jerad Hobgood\\Desktop\\IMDB Project\\IMDB\\IMDB\\IMDBDownloaderAndExtractor\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\jhobg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jerad Hobgood\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
