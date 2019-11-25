@@ -34,36 +34,36 @@ namespace IMDB.Services
                             _IMDBRepo.PersistNameBasics(file.FullName);
                             break;
                         }
-                    //case FileSet.TITLE_AKAS_FILE_NAME:
-                    //    {
-                    //        _IMDBRepo.PersistTitleAkas(file.FullName);
-                    //        break;
-                    //    }
-                    //case FileSet.TITLE_BASICS_FILE_NAME:
-                    //    {
-                    //        _IMDBRepo.PersistTitleBasics(file.FullName);
-                    //        break;
-                    //    }
-                    //case FileSet.TITLE_CREW_FILE_NAME:
-                    //    {
-                    //        _IMDBRepo.PersistTitleCrew(file.FullName);
-                    //        break;
-                    //    }
-                    //case FileSet.TITLE_EPISODE_FILE_NAME:
-                    //    {
-                    //        _IMDBRepo.PersistTitleEpisode(file.FullName);
-                    //        break;
-                    //    }
-                    //case FileSet.TITLE_PRINCIPALS_FILE_NAME:
-                    //    {
-                    //        _IMDBRepo.PersistTitlePrincipals(file.FullName);
-                    //        break;
-                    //    }
-                    //case FileSet.TITLE_RATING_FILE_NAME:
-                    //    {
-                    //        _IMDBRepo.PersistTitleRating(file.FullName);
-                    //        break;
-                    //    }
+                        //case FileSet.TITLE_AKAS_FILE_NAME:
+                        //    {
+                        //        _IMDBRepo.PersistTitleAkas(file.FullName);
+                        //        break;
+                        //    }
+                        //case FileSet.TITLE_BASICS_FILE_NAME:
+                        //    {
+                        //        _IMDBRepo.PersistTitleBasics(file.FullName);
+                        //        break;
+                        //    }
+                        //case FileSet.TITLE_CREW_FILE_NAME:
+                        //    {
+                        //        _IMDBRepo.PersistTitleCrew(file.FullName);
+                        //        break;
+                        //    }
+                        //case FileSet.TITLE_EPISODE_FILE_NAME:
+                        //    {
+                        //        _IMDBRepo.PersistTitleEpisode(file.FullName);
+                        //        break;
+                        //    }
+                        //case FileSet.TITLE_PRINCIPALS_FILE_NAME:
+                        //    {
+                        //        _IMDBRepo.PersistTitlePrincipals(file.FullName);
+                        //        break;
+                        //    }
+                        //case FileSet.TITLE_RATING_FILE_NAME:
+                        //    {
+                        //        _IMDBRepo.PersistTitleRating(file.FullName);
+                        //        break;
+                        //    }
                 }
             }
 
