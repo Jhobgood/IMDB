@@ -1,9 +1,29 @@
-﻿@model IMDB.Models.IMDBTest
+﻿@model IMDB.Models.FormSubmit
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<form asp-controller="IMDB" asp-action="Save" method="post">
+<form asp-controller="IMDB" asp-action="Save" method="post" class="pt-5">
+    <div id="cssWrapper" class="row">
+        <div class="col-md-3 form-group">
+            <label>Title</label>
+            <input type="text" class="form-control" name="Title" />
+        </div>
+        <div class="col-md-3 form-group">
+            <label>Rating</label>
+            <input type="text" class="form-control" name="Rating" />
+        </div>
+        <div class="col-md-3 form-group">
+            <label>Actor</label>
+            <input type="text" class="form-control" name="Actor" />
+        </div>
+        <div class="col-md-3 form-group">
+            <label>Other</label>
+            <input type="text" class="form-control" name="Other" />
+        </div>
 
-    <button type="Submit">Submit</button>
+        <div>
+            <button type="Submit">Submit</button>
+        </div>
+    </div>
 </form>

@@ -20,14 +20,14 @@ namespace IMDB.Controllers
 
         public IActionResult IMDB()
         {
-            IMDBTest t = new IMDBTest();
+            FormSubmit t = new FormSubmit();
             return View(t);
         }
 
         [HttpPost]
-        public void Save(IMDBTest i)
+        public void Save(FormSubmit i)
         {
-            _imdbService.ReadInFile();
+            
         }
     }
 }
