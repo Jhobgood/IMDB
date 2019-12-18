@@ -14,31 +14,35 @@ namespace IMDBDownloaderAndExtractor
 
         public static void DownloadFiles()
         {
-            string localFile = @"C:\Test";
-            if (!Directory.Exists(localFile))
-            {
-                Directory.CreateDirectory(localFile);
-            }
+            //string localFile = @"C:\QuaverLogs";
+            //if (!Directory.Exists(localFile))
+            //{
+            //    Directory.CreateDirectory(localFile);
+            //}
 
-            DirectoryInfo directorySelected = new DirectoryInfo(localFile);
-            foreach (FileInfo file in directorySelected.GetFiles())
-            {
-                file.Delete();
-            }
-            WebClient Client = new WebClient();
-            Client.DownloadFile("https://datasets.imdbws.com/name.basics.tsv.gz", @"C:\Test\nameBasics.tsv.gz");
-            Client.DownloadFile("https://datasets.imdbws.com/title.akas.tsv.gz", @"C:\Test\titleAkas.tsv.gz");
-            Client.DownloadFile("https://datasets.imdbws.com/title.basics.tsv.gz", @"C:\Test\titleBasics.tsv.gz");
-            Client.DownloadFile("https://datasets.imdbws.com/title.crew.tsv.gz", @"C:\Test\titleCrew.tsv.gz");
-            Client.DownloadFile("https://datasets.imdbws.com/title.episode.tsv.gz", @"C:\Test\titleEpisode.tsv.gz");
-            Client.DownloadFile("https://datasets.imdbws.com/title.principals.tsv.gz", @"C:\Test\titlePrincipals.tsv.gz");
-            Client.DownloadFile("https://datasets.imdbws.com/title.ratings.tsv.gz", @"C:\Test\titleRatings.gz");
+            //DirectoryInfo directorySelected = new DirectoryInfo(localFile);
+            //foreach (FileInfo file in directorySelected.GetFiles())
+            //{
+            //    file.Delete();
+            //}
 
-            foreach (FileInfo fileToDecompress in directorySelected.GetFiles("*.gz"))
-            {
-                Decompress(fileToDecompress);
-                fileToDecompress.Delete();
-            }
+            //WebClient Client = new WebClient();
+            //Client.DownloadFile("https://datasets.imdbws.com/name.basics.tsv.gz", @"C:\QuaverLogs\nameBasics.tsv.gz");
+            //Client.DownloadFile("https://datasets.imdbws.com/title.akas.tsv.gz", @"C:\QuaverLogs\titleAkas.tsv.gz");
+            //Client.DownloadFile("https://datasets.imdbws.com/title.basics.tsv.gz", @"C:\QuaverLogs\titleBasics.tsv.gz");
+            //Client.DownloadFile("https://datasets.imdbws.com/title.crew.tsv.gz", @"C:\QuaverLogs\titleCrew.tsv.gz");
+            //Client.DownloadFile("https://datasets.imdbws.com/title.episode.tsv.gz", @"C:\QuaverLogs\titleEpisode.tsv.gz");
+            //Client.DownloadFile("https://datasets.imdbws.com/title.principals.tsv.gz", @"C:\QuaverLogs\titlePrincipals.tsv.gz");
+            //Client.DownloadFile("https://datasets.imdbws.com/title.ratings.tsv.gz", @"C:\QuaverLogs\titleRating.gz");
+
+            //foreach (FileInfo fileToDecompress in directorySelected.GetFiles("*.gz"))
+            //{
+            //    Decompress(fileToDecompress);
+            //    fileToDecompress.Delete();
+            //}
+
+            InsertFilesetIntoDatabase insertToDB = new InsertFilesetIntoDatabase();
+            insertToDB.ReadInFile();
         }
 
         public static void Decompress(FileInfo fileToDecompress)

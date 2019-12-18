@@ -49,7 +49,6 @@ namespace IMDB.Data.Objects
         {
             get
             {
-
                 // Always get the latest state of the files
                 titleCrew = new FileInfo(GetFullFilePath(TITLE_CREW_FILE_NAME));
                 titleEpisode = new FileInfo(GetFullFilePath(TITLE_EPISODE_FILE_NAME));

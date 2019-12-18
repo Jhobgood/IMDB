@@ -20,3 +20,23 @@ C:\Users\jhobg\OneDrive\Desktop\IMDB\IMDB\IMDB\IMDBDownloaderAndExtractor\obj\De
 C:\Users\jhobg\OneDrive\Desktop\IMDB\IMDB\IMDB\IMDBDownloaderAndExtractor\obj\Debug\netcoreapp3.0\IMDBDownloaderAndExtractor.AssemblyInfo.cs
 C:\Users\jhobg\OneDrive\Desktop\IMDB\IMDB\IMDB\IMDBDownloaderAndExtractor\obj\Debug\netcoreapp3.0\IMDBDownloaderAndExtractor.dll
 C:\Users\jhobg\OneDrive\Desktop\IMDB\IMDB\IMDB\IMDBDownloaderAndExtractor\obj\Debug\netcoreapp3.0\IMDBDownloaderAndExtractor.pdb
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDBDownloaderAndExtractor\bin\Debug\netcoreapp3.0\BouncyCastle.Crypto.dll
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDBDownloaderAndExtractor\bin\Debug\netcoreapp3.0\Google.Protobuf.dll
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDBDownloaderAndExtractor\bin\Debug\netcoreapp3.0\MySql.Data.dll
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDBDownloaderAndExtractor\bin\Debug\netcoreapp3.0\Renci.SshNet.dll
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDBDownloaderAndExtractor\bin\Debug\netcoreapp3.0\SshNet.Security.Cryptography.dll
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDBDownloaderAndExtractor\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDBDownloaderAndExtractor\bin\Debug\netcoreapp3.0\System.Data.SqlClient.dll
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDBDownloaderAndExtractor\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDBDownloaderAndExtractor\bin\Debug\netcoreapp3.0\System.Security.Permissions.dll
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDBDownloaderAndExtractor\bin\Debug\netcoreapp3.0\System.Xml.XPath.XmlDocument.dll
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDBDownloaderAndExtractor\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDBDownloaderAndExtractor\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDBDownloaderAndExtractor\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDBDownloaderAndExtractor\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDBDownloaderAndExtractor\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDBDownloaderAndExtractor\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDBDownloaderAndExtractor\bin\Debug\netcoreapp3.0\IMDB.Data.dll
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDBDownloaderAndExtractor\bin\Debug\netcoreapp3.0\IMDB.Data.pdb
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDBDownloaderAndExtractor\obj\Debug\netcoreapp3.0\IMDBDownloaderAndExtractor.csproj.CopyComplete
+C:\Users\Jerad Hobgood\Desktop\IMDB Project\IMDB\IMDB\IMDBDownloaderAndExtractor\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
